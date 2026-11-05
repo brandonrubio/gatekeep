@@ -12,9 +12,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/yourname/zt-ciam/internal/cryptoutil"
-	"github.com/yourname/zt-ciam/internal/fixture"
-	"github.com/yourname/zt-ciam/internal/oidc"
+	"github.com/brandonrubio/gatekeep/internal/cryptoutil"
+	"github.com/brandonrubio/gatekeep/internal/fixture"
+	"github.com/brandonrubio/gatekeep/internal/oidc"
 )
 
 const (

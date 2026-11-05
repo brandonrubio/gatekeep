@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/audit"
-	"github.com/yourname/zt-ciam/internal/clock"
-	"github.com/yourname/zt-ciam/internal/cryptoutil"
-	"github.com/yourname/zt-ciam/internal/device"
-	"github.com/yourname/zt-ciam/internal/store"
+	"github.com/brandonrubio/gatekeep/internal/audit"
+	"github.com/brandonrubio/gatekeep/internal/clock"
+	"github.com/brandonrubio/gatekeep/internal/cryptoutil"
+	"github.com/brandonrubio/gatekeep/internal/device"
+	"github.com/brandonrubio/gatekeep/internal/store"
 )
 
 const (

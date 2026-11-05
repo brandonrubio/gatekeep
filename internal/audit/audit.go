@@ -6,8 +6,8 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/yourname/zt-ciam/internal/clock"
-	"github.com/yourname/zt-ciam/internal/store"
+	"github.com/brandonrubio/gatekeep/internal/clock"
+	"github.com/brandonrubio/gatekeep/internal/store"
 )
 
 type Log struct {

@@ -1,4 +1,4 @@
-# zt-ciam — Customer Identity, Zero-Trust Access, and Identity Data Sync (Go)
+# gatekeep — Customer Identity, Zero-Trust Access, and Identity Data Sync (Go)
 
 A compact, runnable reference implementation of three things that normally live in separate teams:
 
@@ -19,12 +19,7 @@ go run ./cmd/oidc-demo     # OIDC flow as a relying party, plus attack replays
 go run ./cmd/server        # HTTP API on 127.0.0.1:8080
 ```
 
-Before publishing, replace the placeholder module path `github.com/yourname/zt-ciam` (in `go.mod` and every import) with your own, e.g.:
-
-```bash
-OLD=github.com/yourname/zt-ciam; NEW=github.com/<you>/zt-ciam
-grep -rl "$OLD" --include='*.go' --include=go.mod . | xargs sed -i "s#$OLD#$NEW#g"
-```
+The module path is `github.com/brandonrubio/gatekeep`.
 
 ## Layout
 

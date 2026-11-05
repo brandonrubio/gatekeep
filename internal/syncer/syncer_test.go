@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/cryptoutil"
-	"github.com/yourname/zt-ciam/internal/fixture"
-	"github.com/yourname/zt-ciam/internal/syncer"
+	"github.com/brandonrubio/gatekeep/internal/cryptoutil"
+	"github.com/brandonrubio/gatekeep/internal/fixture"
+	"github.com/brandonrubio/gatekeep/internal/syncer"
 )
 
 // dump renders every key and value a target holds, so "no PII left" assertions can actually fail.

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yourname/zt-ciam/internal/app"
-	"github.com/yourname/zt-ciam/internal/identity"
-	"github.com/yourname/zt-ciam/internal/oidc"
-	"github.com/yourname/zt-ciam/internal/policy"
+	"github.com/brandonrubio/gatekeep/internal/app"
+	"github.com/brandonrubio/gatekeep/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/oidc"
+	"github.com/brandonrubio/gatekeep/internal/policy"
 )
 
 type Server struct {

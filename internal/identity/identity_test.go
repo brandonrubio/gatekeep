@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/fixture"
-	"github.com/yourname/zt-ciam/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/fixture"
+	"github.com/brandonrubio/gatekeep/internal/identity"
 )
 
 func wantErr(t *testing.T, err error, want identity.Error) {

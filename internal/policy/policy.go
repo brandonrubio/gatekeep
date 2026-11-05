@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/device"
-	"github.com/yourname/zt-ciam/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/device"
+	"github.com/brandonrubio/gatekeep/internal/identity"
 )
 
 const (

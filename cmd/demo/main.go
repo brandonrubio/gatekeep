@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/cryptoutil"
-	"github.com/yourname/zt-ciam/internal/device"
-	"github.com/yourname/zt-ciam/internal/fixture"
-	"github.com/yourname/zt-ciam/internal/identity"
-	"github.com/yourname/zt-ciam/internal/syncer"
+	"github.com/brandonrubio/gatekeep/internal/cryptoutil"
+	"github.com/brandonrubio/gatekeep/internal/device"
+	"github.com/brandonrubio/gatekeep/internal/fixture"
+	"github.com/brandonrubio/gatekeep/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/syncer"
 )
 
 func h(t string) { fmt.Printf("\n=== %s\n", t) }

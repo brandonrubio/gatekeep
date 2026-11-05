@@ -17,10 +17,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/clock"
-	"github.com/yourname/zt-ciam/internal/cryptoutil"
-	"github.com/yourname/zt-ciam/internal/identity"
-	"github.com/yourname/zt-ciam/internal/store"
+	"github.com/brandonrubio/gatekeep/internal/clock"
+	"github.com/brandonrubio/gatekeep/internal/cryptoutil"
+	"github.com/brandonrubio/gatekeep/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/store"
 )
 
 // TransientError marks a retryable downstream failure.

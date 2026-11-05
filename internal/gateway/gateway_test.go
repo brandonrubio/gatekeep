@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/device"
-	"github.com/yourname/zt-ciam/internal/fixture"
-	"github.com/yourname/zt-ciam/internal/identity"
-	"github.com/yourname/zt-ciam/internal/policy"
+	"github.com/brandonrubio/gatekeep/internal/device"
+	"github.com/brandonrubio/gatekeep/internal/fixture"
+	"github.com/brandonrubio/gatekeep/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/policy"
 )
 
 const ip = fixture.IP

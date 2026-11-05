@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/cryptoutil"
-	"github.com/yourname/zt-ciam/internal/fixture"
-	"github.com/yourname/zt-ciam/internal/identity"
-	"github.com/yourname/zt-ciam/internal/oidc"
-	"github.com/yourname/zt-ciam/internal/policy"
+	"github.com/brandonrubio/gatekeep/internal/cryptoutil"
+	"github.com/brandonrubio/gatekeep/internal/fixture"
+	"github.com/brandonrubio/gatekeep/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/oidc"
+	"github.com/brandonrubio/gatekeep/internal/policy"
 )
 
 const (

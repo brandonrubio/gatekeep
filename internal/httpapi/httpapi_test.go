@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yourname/zt-ciam/internal/cryptoutil"
-	"github.com/yourname/zt-ciam/internal/fixture"
-	"github.com/yourname/zt-ciam/internal/httpapi"
-	"github.com/yourname/zt-ciam/internal/oidc"
+	"github.com/brandonrubio/gatekeep/internal/cryptoutil"
+	"github.com/brandonrubio/gatekeep/internal/fixture"
+	"github.com/brandonrubio/gatekeep/internal/httpapi"
+	"github.com/brandonrubio/gatekeep/internal/oidc"
 )
 
 const redirect = "https://app.example.test/callback"

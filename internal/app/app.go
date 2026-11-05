@@ -2,14 +2,14 @@
 package app
 
 import (
-	"github.com/yourname/zt-ciam/internal/audit"
-	"github.com/yourname/zt-ciam/internal/clock"
-	"github.com/yourname/zt-ciam/internal/device"
-	"github.com/yourname/zt-ciam/internal/gateway"
-	"github.com/yourname/zt-ciam/internal/identity"
-	"github.com/yourname/zt-ciam/internal/oidc"
-	"github.com/yourname/zt-ciam/internal/store"
-	"github.com/yourname/zt-ciam/internal/syncer"
+	"github.com/brandonrubio/gatekeep/internal/audit"
+	"github.com/brandonrubio/gatekeep/internal/clock"
+	"github.com/brandonrubio/gatekeep/internal/device"
+	"github.com/brandonrubio/gatekeep/internal/gateway"
+	"github.com/brandonrubio/gatekeep/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/oidc"
+	"github.com/brandonrubio/gatekeep/internal/store"
+	"github.com/brandonrubio/gatekeep/internal/syncer"
 )
 
 type App struct {

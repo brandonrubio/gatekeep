@@ -4,12 +4,12 @@ package fixture
 import (
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/app"
-	"github.com/yourname/zt-ciam/internal/clock"
-	"github.com/yourname/zt-ciam/internal/cryptoutil"
-	"github.com/yourname/zt-ciam/internal/device"
-	"github.com/yourname/zt-ciam/internal/identity"
-	"github.com/yourname/zt-ciam/internal/store"
+	"github.com/brandonrubio/gatekeep/internal/app"
+	"github.com/brandonrubio/gatekeep/internal/clock"
+	"github.com/brandonrubio/gatekeep/internal/cryptoutil"
+	"github.com/brandonrubio/gatekeep/internal/device"
+	"github.com/brandonrubio/gatekeep/internal/identity"
+	"github.com/brandonrubio/gatekeep/internal/store"
 )
 
 const (

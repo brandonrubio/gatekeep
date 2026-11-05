@@ -10,9 +10,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/yourname/zt-ciam/internal/app"
-	"github.com/yourname/zt-ciam/internal/clock"
-	"github.com/yourname/zt-ciam/internal/httpapi"
+	"github.com/brandonrubio/gatekeep/internal/app"
+	"github.com/brandonrubio/gatekeep/internal/clock"
+	"github.com/brandonrubio/gatekeep/internal/httpapi"
 )
 
 func main() {
