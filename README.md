@@ -127,13 +127,6 @@ Authorization Code flow with **mandatory PKCE**, following the OAuth 2.0 Securit
 - Not implemented: WebAuthn/passkeys, RP-initiated/back-channel logout, token introspection/revocation endpoints.
 - `X-Client-IP` is trusted so demos can simulate networks; take the client IP from a trusted proxy only.
 
-## Resume bullets (pick 3–4)
-
-- Built a customer identity platform in Go (stdlib only) with TOTP MFA, rotating refresh tokens with reuse detection, risk-based login, consent management, and GDPR erasure, following the standard `cmd/` + `internal/` layout with a table-driven threat-model test suite.
-- Implemented an OpenID Connect provider from scratch (Authorization Code + PKCE S256, RS256 ID tokens, JWKS discovery with key rotation, `max_age`/`acr_values` step-up), hardened against open redirects, PKCE downgrade, code replay (session revocation), and `alg` confusion, with a scripted attack suite.
-- Designed a zero-trust gateway with a declarative default-deny policy engine that re-evaluates session state, signed device posture, network context, and just-in-time grants on every request, supporting allow/deny/step-up decisions and a hash-chained audit trail.
-- Implemented a transactional-outbox sync pipeline with idempotent, version-ordered consumers, exponential backoff, a dead-letter queue with replay, and a reconciliation job that detects and repairs drift across CRM, marketing, and analytics systems, with consent-gated propagation, field minimisation, HMAC pseudonymisation, and erasure tombstones.
-
 ## Legacy
 
 `legacy/python/` is the original Python implementation (57 passing tests). It is kept only as a reference until the Go port is verified; delete it afterwards.
