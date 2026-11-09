@@ -126,7 +126,3 @@ Authorization Code flow with **mandatory PKCE**, following the OAuth 2.0 Securit
 - `/authorize` identifies the user from an existing session bearer token; a real deployment renders a login page and uses a session cookie. Only public clients (PKCE) are supported: no client secrets, consent screen, or dynamic registration.
 - Not implemented: WebAuthn/passkeys, RP-initiated/back-channel logout, token introspection/revocation endpoints.
 - `X-Client-IP` is trusted so demos can simulate networks; take the client IP from a trusted proxy only.
-
-## Legacy
-
-`legacy/python/` is the original Python implementation (57 passing tests). It is kept only as a reference until the Go port is verified; delete it afterwards.
